@@ -20,6 +20,10 @@
     color: rgba(71, 71, 71, 1);
 }
 
+.dark-3{
+    color:rgba(117, 117, 117, 1);
+}
+
 .btn-primary{
     border-radius: 5px;
     background-color: rgba(253, 110, 10, 1);
@@ -159,3 +163,37 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
+/* Resume Section Style */
+.resume-container{
+    display:flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.experiance-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.experiance-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experiance-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+
