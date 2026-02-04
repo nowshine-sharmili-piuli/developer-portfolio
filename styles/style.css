@@ -197,3 +197,44 @@ main section{
     margin-top: 50px;
 }
 
+/* Control+N=>ekdm below */
+
+/* Footer Styles */
+footer{
+    padding: 180px 280px;
+    display: flex;
+    gap: 117px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer .footer-input{ /* input field style >>footer input[type="text"] */
+    height: 64px;
+    /* width: 461px; */
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer .footer-textarea{ /* input field style >>footer input[type="textarea"] */
+    height: 180px;
+    /* width: 461px; */
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.icons{
+    display: flex;
+    gap: 24px;
+}
